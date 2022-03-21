@@ -1,3 +1,108 @@
+h1 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
 body {
-  background-color: pink;
+  background-color: white;
+  display: static;
+  justify-content: center;
+  padding: 200px;
+}
+
+.card {
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-color: black;
+  border-style: solid;
+  width: 50px;
+  text-align: center;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.suit {
+  margin: 5px;
+  font-size: 20px;
+}
+
+.name {
+  margin: 5px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.red {
+  color: red;
+}
+
+.black {
+  color: black;
+}
+
+.player-button {
+  background-color: yellow;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.buttons-section {
+  background: pink;
+  margin: auto;
+  position: relative;
+  border: 3px solid green;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+#player1 {
+  margin: 10px;
+  justify-content: center;
+}
+
+#player2 {
+  margin-right: 10px;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  background: orange;
+  position: relative;
+  border: 3px solid green;
+  padding: 100px;
+}
+
+#player1container {
+  display: inline-block;
+  padding: 30px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: gray;
+}
+
+#player2container {
+  display: inline-block;
+  padding: 30px;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  background: white;
+}
+
+#info-display {
+  padding: 50px;
+  font-size: 30px;
+  background: black;
+  color: white;
 }

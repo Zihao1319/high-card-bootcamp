@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html>
+  <meta charset="UTF-8" />
   <head>
     <title>SWE101</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
-    <h1 id="header">SWE101! 🚀</h1>
+    <h1 id="header">Let's play some cards!</h1>
+    <div class="gamebody">
+      <div class="buttons-section">
+        <div id="playersButton">
+          <input
+            type="button"
+            id="player1"
+            class="player-button"
+            value="Player 1 Draw"
+            onclick="player1Click()"
+          />
+
+          <input
+            type="button"
+            id="player2"
+            class="player-button"
+            value="Player 2 Draw"
+            onclick="player2Click()"
+          />
+        </div>
+      </div>
+      <div class="container">
+        <div id="player1container"></div>
+        <div id="player2container"></div>
+      </div>
+      <div class="container" id="info-display"></div>
+    </div>
+
     <!-- Import program logic -->
     <script src="script.js"></script>
   </body>
